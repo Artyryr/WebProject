@@ -1,0 +1,67 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewBag.Image = "url('/images/bg_1.jpg')";
+    ViewBag.Title = "Add Recipe";
+    ViewBag.PageName = "Add Recipe";
+}
+    <div class="row d-flex">
+        <div class="col-md-12 ftco-animate makereservation p-5 bg-light fadeInUp ftco-animated">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Recipe title</label>
+                        <input type="text" class="form-control" placeholder="Recipe title">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea class="form-control" rows="10" placeholder="Description"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Preparation time</label>
+                        <input type="text" class="form-control" placeholder="Preparation time">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Cook time</label>
+                        <input type="text" class="form-control" placeholder="Cook time">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Number of servings</label>
+                        <input type="text" class="form-control" placeholder="Number of servings">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Ingredients</label>
+                        <textarea class="form-control" rows="10" placeholder="Ingredients"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Directions</label>
+                        <textarea class="form-control" rows="10" placeholder="Directions"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3 text-center">
+                    <div class="form-group">
+                        <input type="submit" value="Add Recipe" class="btn btn-primary py-3 px-5 text-center">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3 text-center">
+                    <div class="form-group">
+                        <input type="reset" value="Reset" class="btn btn-primary py-3 px-5 text-center">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
